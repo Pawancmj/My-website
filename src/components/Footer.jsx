@@ -31,7 +31,7 @@ const Footer = () => {
           <h3 className='text-white text-lg font-bold mb-4'>Follow Us</h3>
           <div className='flex gap-4 text-2xl text-gray-400'>
             <a
-              href="https://www.linkedin.com/your-company-link"
+              href="https://www.linkedin.com/company/cyberforenx-associate/?viewAsMember=true"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -49,7 +49,7 @@ const Footer = () => {
               <FaYoutube />
             </a>
             <a
-              href="https://twitter.com/your-company-link"
+              href="https://x.com/Cyber_ForenX"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter"
@@ -58,7 +58,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://www.instagram.com/your-company-link"
+              href="https://www.instagram.com/cyberforenx/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"

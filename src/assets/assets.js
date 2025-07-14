@@ -75,27 +75,31 @@ export const projectsData = [
 
   export const testimonialsData = [
     {
-        name: "Rohitash",
-        title: "Co-Founder",
-        image: profile_img_1,
-        alt: "Portrait of Donald Jackman",
-        rating: 5,
-        text: "From the very first meeting, they understood my technical needs and delivered effective solutions. Their attention to detail and commitment to client satisfaction is unmatched in the tech support industry."
+        name: "Pawan Dubey",
+        title: "Web Developer",
+        image: "",
+        alt: "Pawan Dubey",
+        text: "Pawan Dubey leads the web development wing at CyberForenX, turning ideas into fast, responsive, and visually stunning websites. His expertise blends creativity and code, ensuring every project delivers impact, performance, and user satisfaction.From the very first meeting, they understood my technical needs and delivered effective solutions. Their attention to detail and commitment to client satisfaction is unmatched in the tech support industry."
     },
     {
-        name: "Saurabh",
-        title: "Co-Founder",
-        image: profile_img_2,
-        alt: "Portrait of Richard Nelson",
-        rating: 4,
-        text: "Great UI/UX design service — simple, modern, and effective. Happy with how it turned out for us."
+        name: "Vishwas Paliwal",
+        title: "Digital Forensics",
+        image: "",
+        alt: "Vishwas Paliwal",
+        text: "Vishwas Paliwal leads the digital forensics wing at CyberForenX, uncovering hidden truths through advanced data analysis and investigative precision. His expertise ensures every case is handled with accuracy, integrity, and a commitment to digital justice.Great UI/UX design service — simple, modern, and effective. Happy with how it turned out for us."
     },
     {
-        name: "Shashank",
-        title: "Co-Founder",
-        image: profile_img_3,
-        alt: "Portrait of James Washington",
-        rating: 5,
-        text: "Absolutely loved the website he created for my business — amazing design, fast delivery, and excellent communication too."
-    }
+        name: "Aryan Singh",
+        title: "Data Analyst",
+        image: "",
+        alt: "Aryan Singh",
+        text: "Aryan Singh leads the data analytics wing at CyberForenX, transforming raw data into actionable insights through strategic analysis and visualization. His expertise ensures every decision is backed by accuracy, clarity, and data-driven intelligence.Absolutely loved the website he created for my business — amazing design, fast delivery, and excellent communication too."
+    },
+    {
+        name: "Arvind Maddhesiya",
+        title: "SEO Expert",
+        image: "",
+        alt: "Arvind Maddhesiya",
+        text: "Arvind Maddhesiya leads the SEO strategy wing at CyberForenX, optimizing digital presence through data-driven keyword research, content strategy, and performance tracking. His expertise ensures every project ranks higher, reaches farther, and drives meaningful online visibility."
+        }
 ];
