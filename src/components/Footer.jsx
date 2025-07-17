@@ -1,6 +1,14 @@
 import React from 'react';
 import { assets } from '../assets/assets';
-import { FaLinkedin, FaYoutube, FaTwitter, FaInstagram } from 'react-icons/fa';
+import {
+  FaLinkedin,
+  FaYoutube,
+  FaTwitter,
+  FaInstagram,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaWhatsapp,
+} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -11,7 +19,7 @@ const Footer = () => {
         <div className='w-full md:w-1/3 mb-8 md:mb-0'>
           <img src={assets.logo_dark} alt="logo" className='w-32 sm:w-36 mb-4' />
           <p className='text-gray-400'>
-            At CyberForenX, we are a dynamic startup driving innovation across technology and business solutions. 
+            At CyberForenX, we are a dynamic startup driving innovation across technology and business solutions.
           </p>
         </div>
 
@@ -26,45 +34,41 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Media Icons */}
+        {/* Address + Social Icons + Contact Details */}
         <div className='w-full md:w-1/3 mb-8 md:mb-0'>
-          <h3 className='text-white text-lg font-bold mb-4'>Follow Us</h3>
-          <div className='flex gap-4 text-2xl text-gray-400'>
-            <a
-              href="https://www.linkedin.com/company/cyberforenx-associate/?viewAsMember=true"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn"
-              className='hover:text-blue-500'
-            >
+          <h3 className='text-white text-lg font-bold mb-4'>Address</h3>
+          <p className='text-gray-400 mb-4'>
+            74A, Avni Vihar, Near Guldhar Metro Station,<br />
+            Meerut Road,<br />
+            Ghaziabad, Uttar Pradesh, India
+          </p>
+
+          {/* Social Media Icons */}
+          <div className='flex gap-4 text-2xl text-gray-400 mb-4'>
+            <a href="https://www.linkedin.com/company/cyberforenx-associate/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className='hover:text-blue-500'>
               <FaLinkedin />
             </a>
-            <a
-              href="https://www.youtube.com/your-company-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="YouTube"
-              className='hover:text-red-500'
-            >
+            <a href="https://www.youtube.com/your-company-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className='hover:text-red-500'>
               <FaYoutube />
             </a>
-            <a
-              href="https://x.com/Cyber_ForenX"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Twitter"
-              className='hover:text-blue-400'
-            >
+            <a href="https://x.com/Cyber_ForenX" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className='hover:text-blue-400'>
               <FaTwitter />
             </a>
-            <a
-              href="https://www.instagram.com/cyberforenx/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-              className='hover:text-pink-500'
-            >
+            <a href="https://www.instagram.com/cyberforenx/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className='hover:text-pink-500'>
               <FaInstagram />
+            </a>
+          </div>
+
+          {/* Contact Methods */}
+          <div className='flex flex-col gap-2 text-gray-400 text-sm'>
+            <a href="tel:+918840657406" className='flex items-center gap-2 hover:text-white'>
+              <FaPhoneAlt /> +91 9990751991
+            </a>
+            <a href="mailto:contact@cyberforenx.in" className='flex items-center gap-2 hover:text-white'>
+              <FaEnvelope /> contact@cyberforenx.in
+            </a>
+            <a href="https://wa.me/918375809673" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 hover:text-white'>
+              <FaWhatsapp /> WhatsApp Chat
             </a>
           </div>
         </div>

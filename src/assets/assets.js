@@ -40,12 +40,14 @@ export const projectsData = [
       price: "Dynamic & Responsive",
       location: "UI/UX Focused"
     },
+    /*
     {
       title: "Digital Forensic",
       image: project_img_2,
       price: "Evidence Recovery",
       location: "Expert Analysis"
     },
+    */
     {
       title: "Technical Support",
       image: project_img_3,
@@ -75,31 +77,32 @@ export const projectsData = [
 
   export const testimonialsData = [
     {
-        name: "Pawan Dubey",
-        title: "Web Developer",
+        name: "Rishav Singh",
+        title: "Business Owner",
         image: "",
-        alt: "Pawan Dubey",
-        text: "Pawan Dubey leads the web development wing at CyberForenX, turning ideas into fast, responsive, and visually stunning websites. His expertise blends creativity and code, ensuring every project delivers impact, performance, and user satisfaction.From the very first meeting, they understood my technical needs and delivered effective solutions. Their attention to detail and commitment to client satisfaction is unmatched in the tech support industry."
+        alt: "",
+        text: "Working with CyberForenX was a game-changer for our business. Pawan Dubey and his team brought our vision to life with a sleek, high-performance website that’s been running flawlessly since handover. Their technical know-how, responsiveness, and design clarity were impressive. They delivered on time and exceeded expectations. We finally have a site that reflects our brand and converts visitors into clients seamlessly."
     },
     {
-        name: "Vishwas Paliwal",
-        title: "Digital Forensics",
+        name: "Raghav Tripathi",
+        title: "Business Owner",
         image: "",
-        alt: "Vishwas Paliwal",
-        text: "Vishwas Paliwal leads the digital forensics wing at CyberForenX, uncovering hidden truths through advanced data analysis and investigative precision. His expertise ensures every case is handled with accuracy, integrity, and a commitment to digital justice.Great UI/UX design service — simple, modern, and effective. Happy with how it turned out for us."
+        alt: "",
+        text: "CyberForenX delivered a flawless website that elevated our digital presence. Led by Pawan Dubey, their team turned our requirements into a modern, responsive site that performs smoothly across all devices. From planning to execution, they maintained clear communication and delivered on every promise. Post-launch, the performance has been excellent, and our clients love the new experience."
+        
     },
     {
-        name: "Aryan Singh",
-        title: "Data Analyst",
+        name: "Arjun Sinha",
+        title: "Business Owner",
         image: "",
-        alt: "Aryan Singh",
-        text: "Aryan Singh leads the data analytics wing at CyberForenX, transforming raw data into actionable insights through strategic analysis and visualization. His expertise ensures every decision is backed by accuracy, clarity, and data-driven intelligence.Absolutely loved the website he created for my business — amazing design, fast delivery, and excellent communication too."
+        alt: "",
+        text: "Partnering with CyberForenX for data analytics was the smartest move we made this year. Their team helped us uncover trends, eliminate inefficiencies, and make smarter business decisions. They presented complex insights in a way that was easy to understand and act on. Their accuracy, speed, and business acumen truly impressed our leadership team."
     },
     {
-        name: "Arvind Maddhesiya",
-        title: "SEO Expert",
+        name: "Ruchi Sarashwat",
+        title: "Business Owner",
         image: "",
-        alt: "Arvind Maddhesiya",
-        text: "Arvind Maddhesiya leads the SEO strategy wing at CyberForenX, optimizing digital presence through data-driven keyword research, content strategy, and performance tracking. His expertise ensures every project ranks higher, reaches farther, and drives meaningful online visibility."
+        alt: "",
+        text: "CyberForenX transformed our raw data into meaningful strategies. Their analytical approach and visualization tools gave us a clear edge in understanding market behavior. The team’s ability to turn numbers into actionable insights directly impacted our revenue growth. Their dedication, clarity, and expertise made them an invaluable partner."
         }
 ];
