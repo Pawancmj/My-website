@@ -61,7 +61,7 @@ const Footer = () => {
 
           {/* Contact Methods */}
           <div className='flex flex-col gap-2 text-gray-400 text-sm'>
-            <a href="tel:+918840657406" className='flex items-center gap-2 hover:text-white'>
+            <a href="tel:+919990751991" className='flex items-center gap-2 hover:text-white'>
               <FaPhoneAlt /> +91 9990751991
             </a>
             <a href="mailto:contact@cyberforenx.in" className='flex items-center gap-2 hover:text-white'>
