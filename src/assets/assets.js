@@ -16,6 +16,7 @@ import project_img_6 from './project_img_6.jpg'
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
+import profile_img_4 from './profile_img_4.png'
 
 export const assets = {
     logo,
@@ -40,14 +41,14 @@ export const projectsData = [
       price: "Dynamic & Responsive",
       location: "UI/UX Focused"
     },
-    /*
+    
     {
       title: "Digital Forensic",
       image: project_img_2,
       price: "Evidence Recovery",
       location: "Expert Analysis"
     },
-    */
+    
     {
       title: "Technical Support",
       image: project_img_3,
@@ -79,14 +80,14 @@ export const projectsData = [
     {
         name: "Rishav Singh",
         title: "Business Owner",
-        image: "",
+        image:  profile_img_1,
         alt: "",
         text: "Working with CyberForenX was a game-changer for our business. Pawan Dubey and his team brought our vision to life with a sleek, high-performance website that’s been running flawlessly since handover. Their technical know-how, responsiveness, and design clarity were impressive. They delivered on time and exceeded expectations. We finally have a site that reflects our brand and converts visitors into clients seamlessly."
     },
     {
         name: "Raghav Tripathi",
         title: "Business Owner",
-        image: "",
+        image:  profile_img_2,
         alt: "",
         text: "CyberForenX delivered a flawless website that elevated our digital presence. Led by Pawan Dubey, their team turned our requirements into a modern, responsive site that performs smoothly across all devices. From planning to execution, they maintained clear communication and delivered on every promise. Post-launch, the performance has been excellent, and our clients love the new experience."
         
@@ -94,14 +95,14 @@ export const projectsData = [
     {
         name: "Arjun Sinha",
         title: "Business Owner",
-        image: "",
+        image:  profile_img_3,
         alt: "",
         text: "Partnering with CyberForenX for data analytics was the smartest move we made this year. Their team helped us uncover trends, eliminate inefficiencies, and make smarter business decisions. They presented complex insights in a way that was easy to understand and act on. Their accuracy, speed, and business acumen truly impressed our leadership team."
     },
     {
         name: "Ruchi Sarashwat",
         title: "Business Owner",
-        image: "",
+        image:  profile_img_4,
         alt: "",
         text: "CyberForenX transformed our raw data into meaningful strategies. Their analytical approach and visualization tools gave us a clear edge in understanding market behavior. The team’s ability to turn numbers into actionable insights directly impacted our revenue growth. Their dedication, clarity, and expertise made them an invaluable partner."
         }
